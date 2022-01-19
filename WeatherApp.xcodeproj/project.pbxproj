@@ -37,6 +37,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C43FFAE02798175800AB75F2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4A54897278B34C500EE7808 /* SceneDelegate.swift */,
+				C4A5489E278B34C700EE7808 /* Assets.xcassets */,
+				C4A548A3278B34C700EE7808 /* Info.plist */,
+				C4A54895278B34C500EE7808 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C43FFAE12798176A00AB75F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4A54899278B34C500EE7808 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C43FFAE22798179600AB75F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5489B278B34C500EE7808 /* Main.storyboard */,
+				C4A548A0278B34C700EE7808 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C43FFAE3279817BC00AB75F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C43FFAE4279817DC00AB75F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C4A54889278B34C500EE7808 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +98,11 @@
 		C4A54894278B34C500EE7808 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				C4A54895278B34C500EE7808 /* AppDelegate.swift */,
-				C4A54897278B34C500EE7808 /* SceneDelegate.swift */,
-				C4A54899278B34C500EE7808 /* ViewController.swift */,
-				C4A5489B278B34C500EE7808 /* Main.storyboard */,
-				C4A5489E278B34C700EE7808 /* Assets.xcassets */,
-				C4A548A0278B34C700EE7808 /* LaunchScreen.storyboard */,
-				C4A548A3278B34C700EE7808 /* Info.plist */,
+				C43FFAE4279817DC00AB75F2 /* Extensions */,
+				C43FFAE3279817BC00AB75F2 /* Models */,
+				C43FFAE22798179600AB75F2 /* Views */,
+				C43FFAE02798175800AB75F2 /* SupportingFiles */,
+				C43FFAE12798176A00AB75F2 /* ViewControllers */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -291,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GXBD5L3X93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = WeatherApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GXBD5L3X93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = WeatherApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
